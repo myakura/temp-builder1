@@ -4,7 +4,7 @@
   "author": "Masataka Yakura",
   "private": true,
   "scripts": {
-    "test": "echo \"Hello $URL\" && exit 1",
+    "test": "echo \"URL: $URL\" && exit 1",
     "build": "npm run test"
   }
 }
