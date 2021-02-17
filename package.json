@@ -4,7 +4,7 @@
   "author": "Masataka Yakura",
   "private": true,
   "scripts": {
-    "test": "echo '$TEMP_VAR bar' && exit 1",
+    "test": "echo $TEMP_VAR && exit 1",
     "build": "npm run test"
   }
 }
